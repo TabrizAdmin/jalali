@@ -19,16 +19,16 @@
     "extra": {
         "laravel": {
             "providers": [
-                "tabrizadmin\\Jalali\\JalaliServiceProvider"
+                "tabrizadmin\\Jalali\\Jalali\\JalaliServiceProvider"
             ],
             "aliases": {
-                "Jalali" : "tabrizadmin\\Services\\Jalali"
+                "Jalali" : "tabrizadmin\\Jalali\\Services\\Jalali"
             }
         }
     },
     "autoload": {
         "psr-4": {
-            "tabrizadmin\\Jalali\\": "src/"
+            "tabrizadmin\\Jalali\\": "src/tabrizadmin"
         }
     },
     "minimum-stability": "dev"

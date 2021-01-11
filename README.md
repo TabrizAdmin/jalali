@@ -16,7 +16,7 @@ You can install the package via composer:
 
 If you are under laravel 6:
 
-In your `config/app.php` add `'tabrizadmin\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
+In your `config/app.php` add `'tabrizadmin\Jalali\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
 
 ```php
     'providers' => array(
@@ -29,7 +29,7 @@ In your `config/app.php` add `'tabrizadmin\Jalali\JalaliServiceProvider'` to the
     ),
 ```
 
-In your `config/app.php` add `'Jalali' => tabrizadmin\Services\Jalali` to the end of the `$aliases` array
+In your `config/app.php` add `'Jalali' => tabrizadmin\Jalali\Services\Jalali` to the end of the `$aliases` array
 
 <a name="basic-usage"></a>
 ## Basic Usage

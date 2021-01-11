@@ -1,4 +1,4 @@
-<?php namespace tabrizadmin\Jalali;
+<?php namespace tabrizadmin\Jalali\Jalali;
 
 /**
  * A LaravelPHP helper class for working w/ jalali dates.
