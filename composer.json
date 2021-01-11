@@ -21,9 +21,9 @@
             "providers": [
                 "tabrizadmin\\Jalali\\JalaliServiceProvider"
             ],
-            "aliases": [
+            "aliases": {
                 "Jalali" : "tabrizadmin\\Services\\Jalali"
-            ]
+            }
         }
     },
     "autoload": {
