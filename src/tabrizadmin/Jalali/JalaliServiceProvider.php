@@ -18,7 +18,7 @@ class JalaliServiceProvider extends ServiceProvider {
    */
   public function boot()
   {
-    $this->package('alifattahi/jalali');
+    $this->package('tabrizadmin/jalali');
   }
 
   /**
@@ -35,7 +35,7 @@ class JalaliServiceProvider extends ServiceProvider {
       $this->app->booting(function()
       {
           $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-          $loader->alias('jDate', 'Alifattahi\Jalali\jDate');
+          $loader->alias('jDate', 'tabrizadmin\Jalali\jDate');
 	});
 
   }
