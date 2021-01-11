@@ -28,16 +28,7 @@ class JalaliServiceProvider extends ServiceProvider {
    */
   public function register()
   {
-      $this->app['jalali'] = $this->app->share(function($app)
-  		{
-  		  return new jDate;
-	});
-      $this->app->booting(function()
-      {
-          $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-          $loader->alias('jDate', 'tabrizadmin\Jalali\jDate');
-	});
-
+      //
   }
 
   /**
