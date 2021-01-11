@@ -29,7 +29,7 @@ In your `config/app.php` add `'tabrizadmin\Jalali\JalaliServiceProvider'` to the
     ),
 ```
 
-In your `config/app.php` add `'Jalali' => tabrizadmin\Services\Jalali` to the end of the `$aliases` array
+In your `config/app.php` add `'Jalali' => tabrizadmin\Jalali\Services\Jalali` to the end of the `$aliases` array
 
 <a name="basic-usage"></a>
 ## Basic Usage

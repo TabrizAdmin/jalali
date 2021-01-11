@@ -1,4 +1,4 @@
-<?php namespace tabrizadmin\Jalali;
+<?php namespace tabrizadmin\Jalali\Jalali;
 
 use Illuminate\Support\ServiceProvider;
 
