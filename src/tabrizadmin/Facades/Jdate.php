@@ -1,4 +1,4 @@
-<?php namespace tabrizadmin\Facades;
+<?php namespace tabrizadmin\Jalali\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
