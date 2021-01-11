@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tabrizadmin\\Jalali\\": "src/tabrizadmin"
+            "tabrizadmin\\": "src"
         }
     },
     "minimum-stability": "dev"

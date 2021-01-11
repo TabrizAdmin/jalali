@@ -1,4 +1,4 @@
-<?php namespace tabrizadmin\Jalali;
+<?php namespace tabrizadmin\jalali\Jalali;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -35,7 +35,7 @@ class JalaliServiceProvider extends ServiceProvider {
       $this->app->booting(function()
       {
           $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-          $loader->alias('jDate', 'tabrizadmin\Jalali\jDate');
+          $loader->alias('jDate', 'tabrizadmin\jalali\Jalali\jDate');
 	});
 
   }

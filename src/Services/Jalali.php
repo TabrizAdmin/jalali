@@ -1,7 +1,7 @@
 <?php
 
-namespace tabrizadmin\Services;
-use tabrizadmin\Jalali\jDate;
+namespace tabrizadmin\jalali\Services;
+use tabrizadmin\jalali\Jalali\jDate;
 
 class Jalali
 {
