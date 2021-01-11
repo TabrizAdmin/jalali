@@ -3,6 +3,8 @@ tabrizadmin/jalali
 
 This Package helps developers to easily work with Jalali (Shamsi or Iranian) dates in Laravel 4 applications, based on Jalali (Shamsi) DateTime class. This Package is based on a Laravel 3 bundle [sallar/laravel-jdate](https://github.com/sallar/laravel-jdate) by [Sallar Kaboli](http://sallar.me).
 
+** Updated for use in Laravel 8 by Hamed Ahadi
+
 <a name="installation"></a>
 ## Installation
 
@@ -12,7 +14,10 @@ You can install the package via composer:
     composer require tabrizadmin\jalali
 ```
 
+If you are under laravel 6:
+
 In your `config/app.php` add `'tabrizadmin\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
+In your `config/app.php` add `'Jalali' => tabrizadmin\Services\Jalali` to the end of the `$aliases` array
 
 ```php
     'providers' => array(

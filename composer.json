@@ -16,9 +16,19 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "tabrizadmin\\Jalali\\JalaliServiceProvider"
+            ],
+            "aliases": [
+                "Jalali" : "tabrizadmin\\Services\\Jalali"
+            ]
+        }
+    },
     "autoload": {
-        "psr-0": {
-            "Alifattahi\\Jalali": "src/"
+        "psr-4": {
+            "tabrizadmin\\Jalali": "src/"
         }
     },
     "minimum-stability": "dev"
