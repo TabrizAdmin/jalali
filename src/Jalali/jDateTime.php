@@ -1,4 +1,4 @@
-<?php namespace tabrizadmin\Jalali;
+<?php namespace tabrizadmin\jalali\Jalali;
 /**
  * Jalali DateTime Class, supports years higher than 2038
  * by: Sallar Kaboli
