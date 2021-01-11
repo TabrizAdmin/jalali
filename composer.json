@@ -30,6 +30,5 @@
         "psr-4": {
             "tabrizadmin\\": "src/tabrizadmin"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
