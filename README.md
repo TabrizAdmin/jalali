@@ -17,7 +17,6 @@ You can install the package via composer:
 If you are under laravel 6:
 
 In your `config/app.php` add `'tabrizadmin\Jalali\JalaliServiceProvider'` to the end of the `$providers` array
-In your `config/app.php` add `'Jalali' => tabrizadmin\Services\Jalali` to the end of the `$aliases` array
 
 ```php
     'providers' => array(
