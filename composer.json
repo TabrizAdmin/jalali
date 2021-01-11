@@ -1,11 +1,15 @@
 {
-    "name": "alifattahi/jalali",
+    "name": "tabrizadmin/jalali",
     "description": "This Package helps developers to easily work with Jalali (Shamsi or Iranian) dates in Laravel 4 applications, based on Jalali (Shamsi) DateTime class. This Package is based on a Laravel 3 bundle sallar/laravel-jdate by Sallar Kaboli.",
     "license": "MIT",
     "authors": [
         {
             "name": "Ali Fattahi",
             "email": "ali.robocup@gmail.com"
+        },
+        {
+            "name": "Hamed Ahadi",
+            "email": "hamed.laravel@gmail.com"
         }
     ],
     "keywords": ["Laravel","Date","Datetime","Jalali"],

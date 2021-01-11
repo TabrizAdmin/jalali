@@ -1,4 +1,4 @@
-<?php namespace Alifattahi\Jalali;
+<?php namespace tabrizadmin\Jalali;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -10,7 +10,7 @@ class JalaliServiceProvider extends ServiceProvider {
    * @var bool
    */
   protected $defer = false;
- 
+
   /**
    * Bootstrap the application events.
    *
@@ -20,7 +20,7 @@ class JalaliServiceProvider extends ServiceProvider {
   {
     $this->package('alifattahi/jalali');
   }
- 
+
   /**
    * Register the service provider.
    *
@@ -39,7 +39,7 @@ class JalaliServiceProvider extends ServiceProvider {
 	});
 
   }
- 
+
   /**
    * Get the services provided by the provider.
    *

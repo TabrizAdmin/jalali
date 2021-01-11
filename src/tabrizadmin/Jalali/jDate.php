@@ -1,4 +1,4 @@
-<?php namespace Alifattahi\Jalali;
+<?php namespace tabrizadmin\Jalali;
 
 /**
  * A LaravelPHP helper class for working w/ jalali dates.
@@ -9,7 +9,7 @@
  * by Scott Travis <scott.w.travis@gmail.com>
  * http://github.com/swt83/laravel-date
  *
- * 
+ *
  * @package     jDate
  * @author      Sallar Kaboli <sallar.kaboli@gmail.com>
  * @link        http://
@@ -86,7 +86,7 @@ class jDate
 	{
 		return jDateTime::mktime($hour, $minute, $second, $month, $day, $year, $jalali, $timezone);
 	}
-	
+
 	public function reforge($str)
 	{
 		if ($this->time !== false)
