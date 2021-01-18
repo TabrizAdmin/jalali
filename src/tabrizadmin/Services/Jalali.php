@@ -20,7 +20,7 @@ class Jalali
 
     public function dateAgo($date)
     {
-        $output = jDate::forge($date)->format($this->format)->ago();
+        $output = jDate::forge($date)->ago();
         return $output;
     }
 
