@@ -29,12 +29,12 @@ class Jalali
         $date = explode('-', $datetime);
         $day_or_time = explode(' ', $date[2]);
         $time = explode(':', $day_or_time[1]);
-        $year = $this->convert($date[0]);
-        $month = $this->convert($date[1]);
-        $day = $this->convert($day_or_time[0]);
-        $hour = $this->convert($time[0]);
-        $second = $this->convert($time[1]);
-        $mili_second = $this->convert($time[2]);
+        $year = $this->convertEnglish($date[0]);
+        $month = $this->convertEnglish($date[1]);
+        $day = $this->convertEnglish($day_or_time[0]);
+        $hour = $this->convertEnglish($time[0]);
+        $second = $this->convertEnglish($time[1]);
+        $mili_second = $this->convertEnglish($time[2]);
         $gregorian = $this->jalali_to_gregorian($year, $month, $day, false);
         $string = $gregorian[0].'-'.$gregorian[1].'-'.$gregorian[2].' '.$hour.':'.$second.':'.$mili_second;
         $time = strtotime($string);
@@ -57,9 +57,9 @@ class Jalali
     {
         $date = explode('-', $date);
         $day_or_time = explode(' ', $date[2]);
-        $year = $this->convert($date[0]);
-        $month = $this->convert($date[1]);
-        $day = $this->convert($day_or_time[0]);
+        $year = $this->convertEnglish($date[0]);
+        $month = $this->convertEnglish($date[1]);
+        $day = $this->convertEnglish($day_or_time[0]);
         $gregorian = $this->jalali_to_gregorian($year, $month, $day, false);
         $string = $gregorian[0].'-'.$gregorian[1].'-'.$gregorian[2];
         $time = strtotime($string);
